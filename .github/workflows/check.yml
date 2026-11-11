@@ -2,7 +2,7 @@ name: Biggs used gear watcher
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # ADJUST INTERVAL HERE (e.g. "*/15 * * * *" = every 15 min)
+    - cron: "*/10 * * * *"   # ADJUST INTERVAL HERE (e.g. "*/15 * * * *" = every 15 min)
   workflow_dispatch:
     inputs:
       test:
